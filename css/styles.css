@@ -1,0 +1,48 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  margin-bottom: 30px;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: rgb(218, 42, 42);
+}
+
+main {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  border-radius: 10px;
+  flex-shrink: 0.5;
+}
+
+.row img {
+  max-width: 40%;
+  margin-right: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
